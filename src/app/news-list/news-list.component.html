@@ -1,0 +1,14 @@
+<div class="conteneur-flex">
+    <div *ngFor="let new of news" class="conteneur-news">
+        <div class="bloc-image"></div>
+        <div>
+            {{new.name}}
+        </div>
+        <div> 
+            <a href="{{new.lien}}">{{new.libelle}}</a>
+            
+        </div>
+
+    </div>
+
+</div>

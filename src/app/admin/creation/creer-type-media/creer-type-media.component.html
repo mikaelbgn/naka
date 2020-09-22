@@ -1,0 +1,10 @@
+<h2>Ajouter un type de média</h2>
+
+<form #receivedTypeMedia="ngForm">
+
+<label for="inputLibelle">Libelle</label>
+<input type="text" id="inputLibelle" [(ngModel)]="typeMedia.libelle" name="libelle" />
+
+
+<button type="button" (click)="addTypeMedia()">Créer</button>
+</form>

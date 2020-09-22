@@ -1,0 +1,9 @@
+<h1>Liste des épisodes</h1>
+<div class="conteneurCarreNumero">
+    <div *ngFor="let episode of episodes" class="carreNumero" ><div>{{ episode.numero }}</div></div>
+</div>
+
+<div>
+    <a routerLink="/admin/creer/type-media">Ajout type media</a>
+    <a routerLink="/episode">Liste episode</a>
+</div>

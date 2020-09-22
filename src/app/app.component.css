@@ -1,0 +1,23 @@
+.entete{
+    height: 100px;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entete > div:first-child {
+    
+    padding-left: 2rem;
+}
+
+.entete > .naka{
+    font-family: monospace;
+    font-size: 2rem;
+    color: white;
+}
+.entete > .tine{
+    font-family: monospace;
+    font-size: 2rem;
+    color: darkred;
+}

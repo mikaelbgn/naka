@@ -1,0 +1,19 @@
+.conteneur-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteneur-flex > .conteneur-news{
+    background-color: linen;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc-image {
+    height: 200px;
+    width: 150px;
+    background-color: mediumvioletred;
+}
